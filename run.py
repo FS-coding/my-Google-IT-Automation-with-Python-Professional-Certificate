@@ -1,18 +1,9 @@
-
-# Now, you'll have to process the .txt files (named 001.txt, 002.txt, ...)
-# in the supplier-data/descriptions/ directory and save them in a data structure so that you can then upload them
-# via JSON.
-# Note that all files are written in the following format, with each piece of information on its own line:
-
 import requests
-import json
+#import json
 import os
-name
-weight ( in lbs)
-description
 
 
-def read_reviews(path):
+def read_reviews(path, ip_address):
 
     files = os.listdir(path)
 
